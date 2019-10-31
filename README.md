@@ -1,0 +1,63 @@
+# carraway
+
+Tool to simplify building a [Gatsby](https://www.gatsbyjs.org/) site.
+
+## Motivation
+
+While building [my website](https://github.com/keplersj/website), [the website for my surname](https://github.com/keplersj/surname-site), the [AtomLinter website](https://github.com/AtomLinter/atomlinter.github.io), and [AtomBuild website](https://github.com/AtomBuild/atombuild.github.io) I became very interested with idea of separating the content of a website from the code that renders it to a webpage.
+
+Gatsby does a lot of the work for us by letting us isolate how data and content is handled from the React code that renders it. The framework then takes this one step further by allowing you to isolate entire website themes, and slotting in content and data.
+
+Carraway aims to take this functionality to the next step with the goal of creating Gatsby sites with repos that contain no code, just the site's data, content, and configuration.
+
+Sites using Carraway will still be using Gatsby, and you will have to configure it as such. However instead of configuring Gatsby in a `gatsby-config.js` at the repo's root, Carraway sites will be configured using JSON in a `gatsby.config.json` file at the repo's root or under the `gatsby` field in the repo's `package.json`.
+
+## (Proposed) Installation
+
+```bash
+# using npm:
+
+npm install gatsby carraway
+
+# using yarn:
+
+yarn add gatsby carraway
+```
+
+## (Proposed) Usage
+
+Create a `gatsby.config.json` file in your repos root or add a `gatsby` field to your `package.json`, with the following structure:
+
+```json
+{
+  "siteMetadata": {},
+  "plugins": []
+}
+```
+
+This will act the basis for the Gatsby site Carraway builds.
+
+### Building Site
+
+To build your Gatsby site with Carraway, run:
+
+```bash
+carraway build
+```
+
+### Development Mode
+
+To run your Gatsby site in development mode with Carraway, run:
+
+```bash
+carraway develop
+```
+
+## Prior Art
+
+- [Gatsby](https://www.gatsbyjs.org/) - powerful static-site generating framework
+- [Docz](https://www.docz.site/) - builds a Gatsby site based on repo content
+
+## License
+
+Copyright [Kepler Sticka-Jones](https://keplersj.com) 2019. Licensed ISC.
