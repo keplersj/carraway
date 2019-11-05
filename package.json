@@ -1,0 +1,35 @@
+{
+  "name": "carraway",
+  "version": "0.0.0-development",
+  "description": "Tool to simplify creating a Gatsby site",
+  "main": "dist/index.js",
+  "bin": {
+    "carraway": "./dist/bin.js"
+  },
+  "dependencies": {
+    "del": "^5.1.0",
+    "execa": "^3.2.0",
+    "write-file-atomic": "^3.0.1",
+    "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "@types/yargs": "^13.0.3",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepack": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keplersj/carraway.git"
+  },
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keplersj/carraway/issues"
+  },
+  "homepage": "https://github.com/keplersj/carraway#readme"
+}
