@@ -17,22 +17,33 @@
     "jest": "^24.9.0",
     "jest-runner-prettier": "^0.3.1",
     "prettier": "^1.18.2",
+    "semantic-release": "^15.13.30",
     "typescript": "^3.6.4"
+  },
+  "peerDependencies": {
+    "gatsby": "*"
   },
   "scripts": {
     "test": "jest",
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "prepack": "tsc"
+    "prepack": "tsc",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keplersj/carraway.git"
+    "url": "https://github.com/keplersj/carraway.git"
   },
   "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/keplersj/carraway/issues"
   },
-  "homepage": "https://github.com/keplersj/carraway#readme"
+  "homepage": "https://github.com/keplersj/carraway#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-site",
+    "build",
+    "build-tool"
+  ]
 }
