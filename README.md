@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Carraway" src="https://raw.githubusercontent.com/keplersj/carraway/master/assets/Carraway_Monogram.png" width="100" />
+  <img alt="Carraway" src="https://raw.githubusercontent.com/keplersj/carraway/master/assets/Carraway_Monogram.svg?sanitize=true" width="100" />
 </p>
 <h1 align="center">
   Carraway
