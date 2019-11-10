@@ -1,5 +1,7 @@
 # carraway
 
+![Caraway Logo](https://raw.githubusercontent.com/keplersj/carraway/master/assets/Carraway_Monogram.svg)
+
 Tool to simplify building a [Gatsby](https://www.gatsbyjs.org/) site. For more information see [Motivation](#motivation) and [Implementation](#implementation) below.
 
 ## Installation
