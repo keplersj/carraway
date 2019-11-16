@@ -10,7 +10,7 @@
     "del": "^5.1.0",
     "execa": "^3.2.0",
     "write-file-atomic": "^3.0.1",
-    "yargs": "^14.2.0"
+    "yargs": "^15.0.1"
   },
   "devDependencies": {
     "@types/yargs": "^13.0.3",
