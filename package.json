@@ -13,7 +13,7 @@
     "yargs": "^15.0.1"
   },
   "devDependencies": {
-    "@types/yargs": "^13.0.3",
+    "@types/yargs": "^15.0.0",
     "jest": "^24.9.0",
     "jest-runner-prettier": "^0.3.1",
     "prettier": "^1.18.2",
