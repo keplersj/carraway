@@ -7,7 +7,7 @@
     "carraway": "./dist/bin.js"
   },
   "dependencies": {
-    "del": "^5.1.0",
+    "del": "^6.0.0",
     "execa": "^4.0.0",
     "write-file-atomic": "^3.0.1",
     "yargs": "^16.0.0"
