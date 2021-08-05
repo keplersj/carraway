@@ -5,8 +5,8 @@
   Carraway
 </h1>
 
-Tool to simplify building a [Gatsby](https://www.gatsbyjs.org/) site. For more information see [Motivation](#motivation) and [Implementation](#implementation) below.
-
+Tool to simplify building a [Gatsby](https://www.gatsbyjs.org/) site. For more information see [Motivation](#motivation) and [Implementation](#implementation) below or read my blog post [Carraway: A Tool to Simplify Gatsby](https://keplersj.com/blog/2019-11-09-carraway-a-tool-to-simplify-gatsby/)
+.
 ## Installation
 
 ```bash
